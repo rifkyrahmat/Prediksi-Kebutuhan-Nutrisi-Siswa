@@ -54,13 +54,6 @@ def load_theme():
         color:white;
     }
 
-    /* ===========================================
-       Sidebar
-    =========================================== */
-
-    [data-testid="stSidebar"]{
-        background-color: var(--secondary-background-color);
-    }
 
     /* ===========================================
        Input Box
