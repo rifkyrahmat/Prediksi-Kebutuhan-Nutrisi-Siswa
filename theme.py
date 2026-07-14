@@ -10,7 +10,7 @@ def load_theme():
     =========================================== */
 
     .main{
-        background-color:#F6FFF4;
+        background-color: var(--background-color);
     }
 
     /* ===========================================
@@ -18,7 +18,7 @@ def load_theme():
     =========================================== */
 
     h1,h2,h3{
-        color:#2E7D32;
+        color: var(--primary-color);
         font-weight:700;
     }
 
@@ -27,10 +27,10 @@ def load_theme():
     =========================================== */
 
     [data-testid="metric-container"]{
-        background:white;
+        background-color: var(--secondary-background-color);
         border-radius:15px;
         padding:18px;
-        border-left:8px solid #43A047;
+        border-left:8px solid var(--primary-color);
         box-shadow:0 4px 12px rgba(0,0,0,0.10);
     }
 
@@ -59,7 +59,7 @@ def load_theme():
     =========================================== */
 
     [data-testid="stSidebar"]{
-        background:#E8F5E9;
+        background-color: var(--secondary-background-color);
     }
 
     /* ===========================================
